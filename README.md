@@ -142,7 +142,7 @@ Aplikasi web Flask yang dirancang khusus untuk menghitung akumulasi harga produk
 
 1. **Clone repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/fajarjulyana/Akumulasi-Harga-Produk.git
    cd akumulasi-harga-produk
    ```
 
@@ -157,8 +157,8 @@ Aplikasi web Flask yang dirancang khusus untuk menghitung akumulasi harga produk
    ```
 
 4. **Akses aplikasi**
-   - Buka browser ke `http://localhost:5000`
-   - Atau gunakan `http://0.0.0.0:5000` untuk akses network
+   - Buka browser ke `http://localhost:5005`
+   - Atau gunakan `http://0.0.0.0:5005` untuk akses network
 
 ## 🔧 Konfigurasi
 
@@ -175,7 +175,7 @@ FLASK_DEBUG=1
 ```
 
 ### Port Configuration
-Aplikasi berjalan di port **5000** secara default. Untuk production, gunakan reverse proxy seperti Nginx.
+Aplikasi berjalan di port **5005** secara default. Untuk production, gunakan reverse proxy seperti Nginx.
 
 ## 📝 Penggunaan
 
